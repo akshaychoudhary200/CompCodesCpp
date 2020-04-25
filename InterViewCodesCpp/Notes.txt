@@ -1,0 +1,26 @@
+
+Taking inputs:
+
+while taking inputs if inputs stops after taking one or two input check for formated and unformated input
+for ex 
+getline()     //unformated
+cin>>         //formated
+
+string <space> number <newline>
+
+jab string k bad number input karengy to next input k time first input <newline> rahega. unformated input 
+bad k whitespace remove ni krta jbki formated input k bad <newline> consider krta h to jb second input line rahegi
+getline() and cin kuch b read ni kr paengy qki first input <newline> rahega to input stream failed stream me rahega
+to hr input k bas <newline> ka buffer clear kre k liye cin.get() use krna padega.
+
+>> formated it excludes white space and count them as termination point
+get() unforated it includes white space
+
+to >> isk bad input mtlb buffer me <newline>
+
+
+formatted skips all the whitespace before reading input but will stop at first whitespace after reading the input
+and while reading integar it will also stop if the data type is incorrect like char inplace of integar so after reading it
+in buffer tha last thing would be <newline> in the next loop the first thing would be read will be <newline> so to avoid this
+we need to read that <newline> so to read <newline> we have to use cin.get(); so <newline> in buffer will be read.
+

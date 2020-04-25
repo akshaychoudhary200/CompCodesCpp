@@ -28,13 +28,20 @@ bool isValidString(char str[]) {
 
 
 int main() {
-	char str[10];
-	cin >> str;
+	char str[100];
 	
-	if (isValidString(str)) {
-		cout << "valid" << endl;
+	int n;
+	cin >> n;
+
+	for (int i = 0; i < n; i++) {
+		cin >> str;
+
+		if (isValidString(str)) {
+			cout << "YES" << endl;
+		}
+		else {
+			cout << "NO" << endl;
+		}
 	}
-	else {
-		cout << "not valid" << endl;
-	}
+	
 }

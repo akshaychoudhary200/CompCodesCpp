@@ -1,0 +1,26 @@
+Containers - they hold vector,stack,list etc
+
+
+
+=================================================================================================================
+
+here vector is a container which is sequential and holds the vector objects and vector is template class
+VECTOR
+
+vector<data type> name; or vector<data type> name(size); 
+
+vector<int> v1,v2;
+v1.size() -----------> gives size of the vector
+
+v1.swap(v2) -----------> swaps all the element of v1 and v2
+
+to sort the vectors 
+
+sort(v.begin(),v.end());
+by default sorts in increasing order
+
+=======================================================================================
+
+map
+
+map<int,int> m;

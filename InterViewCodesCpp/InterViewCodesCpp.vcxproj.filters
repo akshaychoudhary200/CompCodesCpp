@@ -15,8 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="deletCharToMakeAnagrams.cpp">
+    <Text Include="Notes.txt" />
+    <Text Include="STL_NOTES.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EPIsolutions\EvenOdd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EPIsolutions\EvenOdd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
